@@ -1,0 +1,105 @@
+#navbar {
+	font-family: Droid Serif;
+	position: absolute;
+	bottom: 0;
+
+}
+
+#navbar li {
+	list-style-type: none;
+	display: inline;
+	padding: 95px;
+	font-size: 30px;
+	margin: 0;
+}
+
+#navbar a {
+	color: #4682b4;
+
+}
+
+h1 {
+	font-size: 75px;
+	font-family: Roboto;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-family: Droid Serif;
+	padding-bottom: 10px;
+	color: #525050;
+}
+
+p {
+	font-family: Roboto;
+}
+
+.jumbotron {
+	background-image: url('about-mainimage.jpeg');
+	position: relative;
+
+}
+
+#pagetitle {
+	text-align: center;
+	background-size: cover;
+	height: 500px;
+
+
+}
+
+.jumbotron h1 {
+	color: white;
+	line-height: 500px;
+
+}
+
+#intro {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+
+}
+
+.colourblock1 {
+
+	background-color: #e6e3e3;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 0;
+	border-radius: 25px;
+
+}
+
+#intro p {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.colourblock2 {
+	background-color: #c4dedc;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 30px;
+	border-radius: 25px;
+	margin-bottom: 30px;
+
+}
+
+#likes {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	
+}
+
+#likes p {
+	font-size: 20px;
+	font-family: Roboto;
+}
+
+#likes a {
+	font-size: 20px;
+}
