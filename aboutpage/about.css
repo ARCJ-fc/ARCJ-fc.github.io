@@ -1,8 +1,3 @@
-#toppage {
-	
-}
-
-
 #navbar {
 	font-family: Roboto;
 	margin-top: -110px;
@@ -12,6 +7,10 @@
 
 }
 
+#navbar ul {
+	margin-left: 70px;
+}
+
 #navbar li {
 	list-style-type: none;
 	display: inline;
@@ -19,6 +18,11 @@
 	font-size: 30px;
 	margin: 0;
 }
+
+#navbar a:hover {
+	text-decoration: none;
+	color: #3cb3ad;
+} 
 
 #navbar a {
 	color: white;
