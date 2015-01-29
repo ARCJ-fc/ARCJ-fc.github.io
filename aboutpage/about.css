@@ -1,7 +1,14 @@
+#toppage {
+	
+}
+
+
 #navbar {
-	font-family: Droid Serif;
-	position: absolute;
-	bottom: 0;
+	font-family: Roboto;
+	margin-top: -110px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	background-color: rgba(0,0,0,.5);
 
 }
 
@@ -14,14 +21,24 @@
 }
 
 #navbar a {
-	color: #4682b4;
+	color: white;
 
+}
+
+#navbar img {
+	position: absolute;
+	margin-top: -12px;
+	margin-left: 10px;
+}
+
+#header {
+	margin-bottom: 0;
 }
 
 h1 {
 	font-size: 75px;
-	font-family: Roboto;
-	margin-bottom: 0;
+	font-family: Droid Serif;
+	color: #3cb3ad;
 }
 
 h2 {
@@ -35,40 +52,24 @@ p {
 }
 
 .jumbotron {
-	background-image: url('about-mainimage.jpeg');
 	position: relative;
 
+
 }
 
-#pagetitle {
-	text-align: center;
+#headerimg {
+	background-image: url('about-mainimage.jpeg');
+	position: relative;
 	background-size: cover;
-	height: 500px;
-
-
-}
-
-.jumbotron h1 {
-	color: white;
-	line-height: 500px;
+	min-height: 400px;
 
 }
+
 
 #intro {
-	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1000px;
-
-}
-
-.colourblock1 {
-
-	background-color: #e6e3e3;
-	max-width: 100%;
-	max-height: 100%;
-	margin-top: 0;
-	border-radius: 25px;
 
 }
 
@@ -77,18 +78,8 @@ p {
 	padding-bottom: 20px;
 }
 
-.colourblock2 {
-	background-color: #c4dedc;
-	max-width: 100%;
-	max-height: 100%;
-	margin-top: 30px;
-	border-radius: 25px;
-	margin-bottom: 30px;
-
-}
 
 #likes {
-	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1000px;
@@ -102,4 +93,9 @@ p {
 
 #likes a {
 	font-size: 20px;
+}
+
+#main a {
+	color: #3cb3ad;
+}
 }
