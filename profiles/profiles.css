@@ -22,7 +22,7 @@
 h1 {
     color: #6d6d6d;
     font-size: 6rem;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Droid Serif', sans-serif;
     margin: auto;
     text-align: center;
     padding: 40px;
@@ -57,7 +57,7 @@ li {
     
 .profile-div h3 {
     font-family: 'Cabin', sans-serif;
-    font-size: 1.4rem;
+    font-size: 2.5rem;
     color: #4c4c4c;
     display: inline-block;
     text-align: center;
@@ -66,12 +66,13 @@ li {
 }
 
 .profile-pic {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     line-height: 200px;
     border-radius: 100%;
     border: 2px solid #7f7f7f;
-    margin: 0 auto;
+    display:block;
+    margin:auto;
 }
 
 .social-media {
@@ -81,8 +82,6 @@ li {
     margin: auto;
 /*    line-height: 30px;*/
 }
-
-
 
 
 
