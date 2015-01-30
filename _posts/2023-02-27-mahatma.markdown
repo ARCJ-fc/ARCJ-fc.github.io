@@ -1,0 +1,7 @@
+---
+dummy: 8
+layout: posts
+title: Mahatma and the Cyclops
+summary: On his way to confront Dr Zorg, Mahatma is approached by a cyclops who presents him with a riddle
+---
+project9

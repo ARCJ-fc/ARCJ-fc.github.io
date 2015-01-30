@@ -1,0 +1,7 @@
+---
+dummy: 5
+layout: posts
+title: Mahatma gets thanked!?
+summary: The ruffians thank Mahatma for tripping them over with a banana skin
+---
+project6

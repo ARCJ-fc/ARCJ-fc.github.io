@@ -1,0 +1,9 @@
+---
+dummy: 6
+layout: posts
+title: The Plot Thickens!
+summary: The ruffians tell Mahatma that they were being mind-controlled by Dr Zorg, Mahatma's old drinking buddy and the mad-scientist villain of this arc! 
+
+---
+
+project7
