@@ -1,0 +1,7 @@
+---
+dummy: 3
+layout: posts
+title: Mahatma on the Run
+summary: Mahatma starts to run in the other direction
+---
+project4

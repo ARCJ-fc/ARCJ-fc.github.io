@@ -1,0 +1,7 @@
+---
+dummy: 9
+layout: posts
+title: Mahatma the Great
+summary: Mahatma has heard the riddle before, and so bypasses weeks of episode content by answering it without hesitation.
+---
+project10
