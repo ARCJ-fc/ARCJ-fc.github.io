@@ -1,0 +1,31 @@
+{% include head.html %}
+
+<body>
+{% include navbar.html %}
+
+<div class="col-md-4">
+</div>
+
+<div class="col-md-4">
+  <div class="projectslist"></div>
+  <div class="col-md-1"></div>
+  <div class="col-md-2">
+    <div class="projectstitle">
+      <h1>Projects</h1>
+    </div>
+    <div class="projectspreview">
+      <ol class="projectslist">
+        {% for post in page.posts %}
+        <li></li>
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+</div>
+
+<div class="col-md-4">
+</div>
+
+ {% include endofbody.html %}
+
