@@ -1,33 +1,50 @@
 #navbar {
-    font-family: 'Droid Serif', serif;
-    position: absolute;
-    top: 0;
+	font-family: 'Roboto', sans-serif;
+	margin-top: -110px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	background-color: rgba(0,0,0,.5);
+
+}
+
+#navbar ul {
+	margin-left: 70px;
 }
 
 #navbar li {
-    list-style-type: none;
-    display: inline;
-    padding: 95px;
-    font-size: 20px;
-    margin: 0;
-    
+	list-style-type: none;
+	display: inline;
+	padding: 95px;
+	font-size: 30px;
+	margin: 0;
 }
 
+#navbar a:hover {
+	text-decoration: none;
+	color: #3cb3ad;
+} 
+
 #navbar a {
-    color: #4682b4;
-    text-decoration: none;
+	color: white;
+
 }
+
+#navbar img {
+	position: absolute;
+	margin-top: -12px;
+	margin-left: 10px;
+}
+
 
 
 h1 {
-    color: #6d6d6d;
-    font-size: 6rem;
+    font-size: 75px;
     font-family: 'Droid Serif', sans-serif;
     margin: auto;
+    color: #3cb3ad;
     text-align: center;
     padding: 40px;
     margin-top: 60px;
-    
 }
 
 /*
@@ -76,10 +93,10 @@ li {
 }
 
 .social-media {
-    max-width: 30px;
-    width: 100%;
+    width: 30px;
     max-height: 30px;
-    margin: auto;
+    display: inline-block;
+    margin:auto;
 /*    line-height: 30px;*/
 }
 
