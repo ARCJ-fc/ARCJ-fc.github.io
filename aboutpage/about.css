@@ -1,3 +1,5 @@
+
+
 #navbar {
 	font-family: Roboto;
 	margin-top: -110px;
@@ -29,10 +31,23 @@
 
 }
 
-#navbar img {
+/* Things to look at to google 
+	CSS transforms (mostly these)
+	CSS transitions (maybe some of these)
+*/ 
+
+#menuimg img:hover {
+	/* Things to look at to google 
+	CSS transforms (mostly these)
+	CSS transitions (maybe some of these)
+*/ 
+}
+
+#menuimg img{
 	position: absolute;
-	margin-top: -12px;
+	margin-top: -100px;
 	margin-left: 10px;
+	z-index: 1;
 }
 
 #header {
