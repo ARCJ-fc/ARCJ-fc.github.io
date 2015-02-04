@@ -1,0 +1,349 @@
+---
+---
+
+// Bit of structure //
+
+html,
+body {
+	height: 100%;
+	// background-image: url("http://hwalls.com/upload/grass_wallpaper447.jpg"); //
+	background-color: white;
+	font-family: "Roboto condensed";
+}
+
+body {
+	color: black;
+	text-align: center;
+	}
+
+.but-im-not-a-wrapper {
+	display: table;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+}
+
+.but-im-not-a-wrapper-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.we-cant-container-captain {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10%;
+	padding-bottom: 14%;
+	background-color: white;
+}
+
+//dummy elements for 100%//
+
+.dummytop {
+	position: fixed;
+	top: 0;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: bottom;
+}
+
+.dummybottom {
+	position: fixed;
+	bottom: 0;
+	margin: auto;
+}
+.dummytop,
+.dummybottom,
+.we-cant-container-captain {
+	width: 844px;
+}
+
+// bit of title border shiznit //
+
+#screen {
+	// background-image: url("http://i.imgur.com/b6OhIOp.jpg?2"); //
+	border: 2px solid black;
+	border-radius: 20px;
+	overflow: hidden;
+	padding-top: 51px;
+	width: 350px;
+	height: 162px;
+	margin: auto;
+	box-shadow: -4px 4px 2px black;
+}
+
+#text {
+	width: 238px;
+	height: 60px;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 20px;
+	margin: auto;
+	box-shadow: -4px 4px 2px black;
+	display: block;
+}
+
+//top tabs//
+
+.tab {
+	height: 120px;
+	border: 2px solid black;
+	border-radius: 12px;
+	width: 72px;
+	margin-top: -50px;
+	box-shadow: -4px 4px 2px black;
+	position: absolute;
+}
+
+#tab1 {
+	margin-left: 31%;
+	background-color: blue;
+}
+
+#tab2 {
+	margin-left: 44%;
+	background-color: lime;
+}
+
+#tab3 {
+	margin-left: 57%;
+	background-color: red;
+}
+
+#tab4 {
+	margin-left: 18%;
+	background-color: violet;
+}
+
+#tab5 {
+	margin-left: 70%;
+	background-color: yellow;
+}
+
+.bot {
+	bottom: 5px;
+	position: absolute;
+	margin: auto;
+	height: 30px;
+	width: 30px;
+	max-height: 30px;
+	max-width: 30px;
+
+}
+
+// bottom tabs //
+.bottomtab {
+	border: 3px solid black;
+	border-radius: 12px;
+	box-shadow: -4px 4px 2px black;
+	position: absolute;
+}
+
+.leftTag,
+.rightTag {
+	border: 3px solid black;
+	border-radius: 12px;
+	box-shadow: -4px 4px 2px black;
+	position: absolute;
+}
+
+#bottomtab1,
+#bottomtab3 {
+	height: 300px;
+	width: 288px;
+	bottom: -260px;
+}
+
+#bottomtab4,
+#bottomtab5 {
+	height: 500px;
+	width: 450px;
+	bottom: 50px;
+}
+
+#bottomtab4 {
+	left: -670px;
+	background-color: violet;
+}
+
+#bottomtab5 {
+	right: -670px;
+	background-color: yellow;
+}
+
+#bottomtab2 {
+	height: 305px;
+	width: 140px;
+	bottom: -260px;
+
+}
+
+#bottomtab1 {
+	margin-left: 0%;
+	background-color: blue;
+}
+
+#bottomtab2 {
+	margin-left: 42%;
+	background-color: lime;
+}
+
+#bottomtab3 {
+	margin-left: 66%;
+	background-color: red;
+}
+
+// projects slide //
+
+a {
+	color: black;
+}
+
+ol li:before:hover {
+	text-decoration: linethrough;
+}
+
+ol {
+	counter-reset: item;
+	margin-left: 0.1em;
+	list-style-position: inside; 
+	padding-left: 0;
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+
+ol li {
+	float: left;
+	width: 20px;
+	font-size: 21px;
+	text-align: center;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+
+ol li:before {
+    content: counter(item, upper-roman) "";
+    counter-increment: item;
+}
+
+#text > div {
+	display: none;
+	height: 100%;
+	width: 100%;
+}
+
+#text > .active {
+	display: block;
+	height: 100%;
+	width: 100%;
+	}
+
+h1 {
+	font-size: 29px;
+}
+
+#screen2 > h1 {
+	margin-top: 7px;
+}
+
+#screen3 > h1 {
+	margin-top: 14px;
+}
+
+a > h1 {
+	font-size: 20px;
+	margin-top: 17px;
+}
+
+#screen2 > a:hover {
+	color: black;
+	text-decoration: line-through;
+}
+
+.name:hover {
+	color: red;
+}
+
+// previews box //
+
+.previewsposition {
+	position: relative;
+}
+
+.previews,
+.profiles {
+	opacity: 0;
+	height: 250px;
+	width: 250px;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin-top: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+	z-index: 10;
+	box-shadow: -4px 4px 2px black;
+}
+
+.profiles {
+	background-color: floralwhite;
+}
+
+.previews {
+	background-color: mediumturquoise;
+}
+
+div > .content {
+	text-align: left;
+	margin: 10px 10px 10px;
+}
+
+// profiles //
+
+#ppics {
+	max-width: 230px;
+	max-height: 230px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 2px;
+	margin-top: 7px;
+}
+
+.name {
+	display: inline-block;
+	width: 23%;
+}
+
+// lime panel logo //
+
+.fandc {
+	margin-top: 15px;
+}
+
+#bulb {
+	position: absolute;
+	height: 120px;
+	width: 76px;
+	left: 30px;
+}
+
+#sun {
+	position: relative;
+	left: 1px;
+	top: -17px;
+	width: 110px;
+	height: 108px;
+}
+
+// sidepanels panel violet //
+
+.sidePanel {
+	font-size: 50px;
+}
+
+a:hover {
+	text-decoration: line-through;
+	color: black;
+}

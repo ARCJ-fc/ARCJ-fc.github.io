@@ -1,0 +1,7 @@
+---
+dummy: 4
+layout: posts
+title: Mahatma's Wise Plan
+summary: Mahatma shows the ruffians what-for!
+---
+project5

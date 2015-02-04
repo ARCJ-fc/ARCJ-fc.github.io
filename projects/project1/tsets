@@ -1,0 +1,23 @@
+var assert = require("assert");
+var request = require("supertest");
+
+request = request("http://explorer.content.guardianapis.com/search?api-key=test&order-by=newest&section=football");
+
+
+// Example of a Basic test using Mocha and Supertest.
+describe("When a user goes to Guardian project page", function() {
+	it("should return status code 200 OK", function(done) {
+		request.get("/")
+		.expect(200, done);
+	});
+	
+	it("should contain the text 'football'", function(done) {
+		request.get("/")
+		.expect(/football/, done);
+	});
+
+	it("should return 10 objects with a sectionname of 'Football'", function(done) {
+		request.get("/")
+		.expect('"sectionName": "Football"', done);
+	});
+});

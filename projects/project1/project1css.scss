@@ -1,0 +1,306 @@
+---
+---
+
+// fonts and guardian colors //
+
+body {
+	font-family: "Guardian Text Egyptian Web",Georgia,serif;
+}
+
+// Tab Display //
+.Tab {
+	position: relative;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.Tab > li {
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+	background: inherit;
+	color: white;
+}
+
+.active {
+	display: block;
+}
+
+.presentation.option > a {
+	padding: 5px 15px;
+}
+
+#icon {
+	width: 35px;
+	height: 35px;
+}
+
+ul.nav.nav-tabs {
+	background-color: #00456e;
+}
+
+.presentation > a {
+	color: white;
+}
+
+ul.nav > li.presentation > a:hover {
+	color: white;
+	text-decoration: underline;
+	background-color: inherit;
+	border-bottom-style: solid;
+	border-color: transparent;
+	border: 0px 0px 1px 0px;
+}
+
+ul.nav > li.presentation > a:hover:active {
+	border-color: white;
+	border: 1px 1px 2px 1px;
+}
+
+#myButtonHome {
+	font-weight: bold;
+}
+
+.Tab > li > a {
+	color: black;
+}
+
+.Tab > li > a:hover {
+	color: black;
+}
+
+#myButtonHome {
+	font-size: 1.2em;
+}
+
+#Tab5 {
+	padding-left: 0;
+}
+
+#storyNum {
+	width: 314px;
+}
+
+.SectionPicker {
+	width: 351px;
+}
+
+.form-inline {
+	margin-top:4px;
+}
+
+a.active {
+	text-decoration: underline;
+}
+
+.presentation {
+	height: 30px;
+	float: left;
+}
+.presentation.options {
+	text-align: right;
+	width: auto;
+}
+
+h2 {
+	font-size:14px;
+	margin: 0;
+	font-weight: bold;
+}
+
+#guardian {
+	color: #4bc6df;
+}
+
+.btn-group-justified {
+	width: 70%;
+	padding-top: 2%;
+}
+
+.btn-group-justified > .presentation {
+	width: auto;
+	text-align: center;
+}
+
+.navbar-nav>li>a {
+	padding: 0;
+}
+
+#myButtonHome {
+	height: auto;
+	margin: 5px 5px 5px;
+}
+
+.navbar-right {
+	width: 10%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+}
+
+.nav-tabs {
+	font-weight: bold;
+}
+
+.Defaults {
+	float: right;
+}
+.options {
+	width: 100%;
+}
+
+#link5,
+#link6 {
+	height: 100%;
+	width: 100%;
+}
+
+#id5,
+#id6 {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	text-align: right;
+	width: 41px;
+	float: right;
+	margin-right: 5px;
+
+}
+
+.col-md-5 {
+	padding: 0;
+}
+
+#id0 {
+	padding: 0;
+	margin-top: 5%;
+}
+
+#myButtonConfig {
+	float: right;
+	margin: 3px;
+}
+
+#myButtonOther {
+	float: right;
+	clear: right;
+}
+
+#TopTab0 {
+	padding: 0;
+}
+
+// hidden tabs //
+
+.presentation {
+	display: none;
+}
+
+.visible {
+	display: initial;
+}
+
+/*
+a {
+	color: black;
+};
+
+ul.nav.nav-tabs {
+	background-color: #00456e;
+}
+.nav-tabs > li {
+	margin-bottom: 0;
+}
+
+.nav-tabs > li > a {
+	border-radius: 0;
+	color: white;
+	border: none;
+}
+.nav-tabs > .presentation.active > a:hover {
+	text-decoration: underline;
+	background-color: #00456e;
+	color: white;
+	border: none;
+};
+
+.nav-tabs > .presentation > a:hover {
+	text-decoration: underline;
+	background-color: #00456e;
+	color: white;
+	border: none;
+
+};
+
+.nav-tabs > .presentation.active > a {
+	background-color: #00456e;
+	color: white;
+	border: none;
+};
+
+.nav-tabs > .presentation#myButtonConfig > a {
+	background-color: #333;
+	color: white;
+}
+
+.nav-tabs > .presentation#myButtonConfig.active > a {
+	background-color: #333;
+	color: white;
+}
+
+.nav-tabs > .presentation#myButtonConfig > a:hover {
+	text-decoration: underline;
+}
+
+// main structure //
+
+
+.Tab > li:before {
+
+}
+
+.mainwrapper {
+	position: absolute;
+}
+
+
+
+// list styling //
+
+//// ol {
+	counter-reset: item;
+	margin-left: 0.1em;
+	list-style-position: inside; 
+	padding-left: 0;
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+
+ol li {
+	text-align: left;
+	margin-left: 13px;
+	margin-right: 13px;
+	padding-right: 10px;
+}
+
+ol li:before {
+    content: counter(item, lower-roman) "";
+    counter-increment: item;
+} ////
+
+
+
+
+
+// list formatting //
+
+
+.Tab > li {
+	height: 3em;
+} */

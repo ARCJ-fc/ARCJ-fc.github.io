@@ -1,0 +1,133 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  </head>
+
+<body>
+
+<div class="but-im-not-a-wrapper">
+  <div class="but-im-not-a-wrapper-inner">
+      <div class="we-cant-container-captain">
+        <div class="dummytop">
+          <div class="topholder">
+            <div class="tab" id="tab4"><img src="assets/projects.png" class="bot"></div>
+            <div class="tab" id="tab1"><img src="assets/book.png"class="bot"></div>
+            <div class="tab" id="tab2"><img src="assets/home.png" class="bot"></div>
+            <div class="tab" id="tab3"><img src="assets/profiles.png" class="bot"></div>
+            <div class="tab" id="tab5"><img src="assets/palette.png" class="bot"></div>
+          </div>
+        </div>
+        <div class="the-main-one">
+          <div id="screen">
+            <div id="text">
+              <div id="screen2">
+                <a href="http://foundersandcoders.org"><h1>foundersandcoders</h1></a>
+              </div>
+              <div id="screen1">
+                <ol>
+                {% for post in site.posts reversed %}
+                  <a>
+                    <li id="{{ post.dummy }}"></li>
+                  </a>
+                {% endfor %}
+                </ol>
+              </div>
+              <div id="screen3">
+              <div>
+                <h1 class="name" id="anita">T</h1>
+                <h1 class="name" id="rory">E</h1>
+                <h1 class="name" id="charlotte">A</h1>
+                <h1 class="name" id="james">M</h1>
+              <div></div>
+            </div>
+          </div>
+          <div id="screen4"></div>
+          <div id="screen5"></div>
+        </div>
+      </div>
+  </div>
+  <div class="dummybottom">
+    <div class="bottomholder">
+      <div class="bottomtab" id="bottomtab1">
+        <div class="previewsposition">
+          {% for post in site.posts reversed %}
+            <div class="previews" id="{{ post.dummy }}">
+              <h3>{{ post.title }}</h3>
+              <p>--- {{ post.date | date: "%d %b" }} ---</p>
+              <p class="content">{{ post.summary }}</p>  
+            </div>
+          {% endfor %}  
+        </div>
+      </div>
+      <div class="bottomtab" id="bottomtab2">
+        <div class="fandc"><a href="www.foundersandcoders.org"><img class="fandc" id="bulb" src="assets/logobw.png"></a><img class="fandc" id="sun" src="assets/sun1-bw.png"></div>
+      </div>
+      <div class="bottomtab" id="bottomtab3">
+        <div class="previewsposition">
+            <div class="profiles" id="anita">
+              <img id="ppics" src="assets/anita-crop.png">
+              <h3></h3>
+              <p></p>
+              <p class="content"><a href=""><img class="networks" src=""></a><a href=""><img class="networks" src=""></a><a href=""><img class="networks" src=""></a></p>  
+            </div>
+            <div class="profiles" id="rory">
+              <img id="ppics" src="assets/rory-crop.png">
+              <h3></h3>
+              <p></p>
+              <p class="content"><a href=""><img class="networks" src=""></a><a href=""><img class="networks" src=""></a><a href=""><img class="networks" src=""></p>  
+            </div>
+            <div class="profiles" id="charlotte">
+              <img id="ppics" src="assets/charlotte-crop.png">
+              <h3></h3>
+              <p></p>
+              <p class="content"><a href=""><img class="networks" src=""></a><a href=""><img class="networks" src=""></a><a href=""><img class="networks" src=""></p>  
+            </div>
+            <div class="profiles" id="james">
+              <img id="ppics" src="assets/james-crop.png">
+              <h3></h3>
+              <p></p>
+              <p class="content"><a href=""><img class="networks" src=""></a><a href=""><img class="networks" src=""></a><a href=""><img class="networks" src=""></p>  
+            </div>
+        </div>
+      </div>
+      <div class="leftTag" id="bottomtab4">
+        <a href="projects/project1"><h1 class="sidePanel">I</h1></a>
+        <a href="projects/project2"><h1 class="sidePanel">II</h1></a>
+        <a href="projects/project3"><h1 class="sidePanel">III</h1></a>
+        <a href="projects/project4"><h1 class="sidePanel">IV</h1></a>
+        <a href="projects/project4"><h1 class="sidePanel">V</h1></a>
+        <a href="projects/project4"><h1 class="sidePanel">VI</h1></a>
+      </div>
+      <div class="rightTag" id="bottomtab5">
+        <a href=""><h1 class="sidePanel">I</h1></a>
+        <a href=""><h1 class="sidePanel">II</h1></a>
+        <a href=""><h1 class="sidePanel">III</h1></a>
+        <a href=""><h1 class="sidePanel">IV</h1></a>
+        <a href=""><h1 class="sidePanel">V</h1></a>
+        <a href=""><h1 class="sidePanel">VI</h1></a>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jQueryRotateCompressed.js"></script>
+    <script src="js/funk.js"></script>
+  </body>
+</html>
+
+
