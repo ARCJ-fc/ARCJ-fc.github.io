@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="project1css.css" rel="stylesheet">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  </head>
+
+  <body>
+    <div class="mainwrapper col-md-5">
+    <ul class="nav nav-tabs">
+      <li class="presentation visible" id="myButtonHome">
+        <a href="#" id="TopTab0"><h2 id="guardian">the</h2><h2>guardian</h2></a>
+      </li>
+      <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <li class="presentation col-md-2 visible" id="myButton1">
+          <a href="#" id="TopTab1">football</a>
+        </li>
+        <li class="presentation col-md-2 visible" id="myButton2"><a href="#" id="TopTab2">uk-news</a></li>
+        <li class="presentation col-md-2 visible" id="myButton3"><a href="#" id="TopTab3">travel</a></li>
+        <li class="presentation col-md-2" id="myButton4">
+          <a href="#" id="TopTab4">weather</a>
+        </li>
+        <li class="presentation col-md-2" id="myButton5"><a href="#" id="TopTab5">business</a></li>
+        <li class="presentation col-md-2" id="myButton6"><a href="#" id="TopTab6">sport</a></li>
+      </div>
+      <!-- <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        
+        <li class="presentation" id="myButtonSix"><a href="#" id="TopTab6">6</a></li>
+      </div> -->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="presentation options visible" id="myButtonConfig"><a href="#" id="link5"><img src="cog-icon.png" class="img-circle" id="icon"></a></li>
+        <!-- <li class="presentation options" id="myButtonOther"><a href="#" id="link6"><img src="guardian-logo-white.png" class="img-circle" id="icon"></a></li> -->
+      </ul>
+      </ul> 
+      <div id="Tabs">
+        <ol class="Tab" id="Tab0">
+        </ol>
+        <ol class="Tab" id="Tab1">
+        </ol>
+        <ol class="Tab" id="Tab2">
+        </ol>
+        <ol class="Tab" id="Tab3">
+        </ol>
+        <ol class="Tab" id="Tab4">
+        </ol>
+        <ol class="Tab" id="Tab5">
+        </ol>
+        <ol class="Tab" id="Tab6">
+        </ol>
+        <ol class="Tab" id="Tab7">
+          <div class="ConfigHolder">
+            <form class="form-inline">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon">stories to load</div>
+                  <select class="form-control" id="storyNum">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option selected>10</option>
+                  </select>
+                </div>
+              </div>
+              <button class="btn btn-primary"id="SaveStories">save</button>
+            </form>
+            <form class="form-inline">
+            <fieldset id="field1">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon">section 1</div>
+                  <select class="form-control SectionPicker" id="SectionValue1"> 
+              </select>
+                </div>
+              </div>
+              <button class="btn btn-primary" id="SaveSection1">save</button>
+              </fieldset>
+            </form>  
+            <form class="form-inline">
+            <fieldset id="field2">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon">section 2</div>
+                  <select class="form-control" id="SectionValue2"> 
+              </select>
+                </div>
+              </div>
+              <button class="btn btn-primary" id="SaveSection2">save</button>
+              </fieldset>
+            </form>
+            <form class="form-inline">
+              <fieldset id="field3">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon">section 3</div>
+                  <select class="form-control" id="SectionValue3"> 
+              </select>
+                </div>
+              </div>
+              <button class="btn btn-primary" id="SaveSection3">save</button>
+              </fieldset>
+            </form>
+            <form class="form-inline">
+              <fieldset id="field4" disabled>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon">section 4</div>
+                  <select class="form-control" id="SectionValue4"> 
+              </select>
+                </div>
+              </div>
+              <button class="btn btn-primary" id="SaveSection4">save</button>
+              </fieldset>
+            </form>
+            <form class="form-inline">
+            <fieldset id="field5" disabled>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon">section 5</div>
+                  <select class="form-control" id="SectionValue5"> 
+              </select>
+                </div>
+              </div>
+              <button class="btn btn-primary" id="SaveSection5">save</button>
+              </fieldset>
+            </form>
+            <form class="form-inline">
+              <fieldset id="field6" disabled>
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-addon">section 6</div>
+                    <select class="form-control" id="SectionValue6"> 
+                </select>
+                  </div>
+                </div>
+              <button class="btn btn-primary" id="SaveSection6">save</button>
+              </fieldset>
+            </form>
+            <form class="form-inline">
+              <button id="minus" class="btn btn-default"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+              <button id="plus" class="btn btn-default"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+              <button type="submit" id="Defaults" class="btn btn-default">defaults</button>
+            </form>
+          </div>
+        </ol>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="project1jquery.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
