@@ -106,6 +106,7 @@ li {
     margin: auto;
     width: 20%;
     text-align: center;
+    margin-bottom: 20px;
     
 }
     
@@ -115,6 +116,26 @@ li {
     color: #4c4c4c;
     margin-bottom: 15px;
 
+}
+
+.profile-wrapper {
+    width: 200px;
+}
+
+.profile-div hr {
+    border-top: 3px solid #3cb3ad;
+    margin-top: 40px;
+}
+
+p {
+    width: 100%;
+}
+
+.profile-text.col-md-4 {
+    width:65%;
+    text-align: left;
+    margin-top: 100px;
+    font-family: Roboto;
 }
 
 .profile-pic {
@@ -134,7 +155,6 @@ li {
     margin: auto;
 /*    line-height: 30px;*/
 }
-
 
 
 

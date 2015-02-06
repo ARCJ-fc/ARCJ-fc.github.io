@@ -8,48 +8,85 @@
 
 	</head>
 	<body>
-		<div id="pagetitle" class="jumbotron">
-			<div id = "navbar" class="container">
+		<div id ="toppage">
+			<div id="headerimg" class="jumbotron">
+			</div>
+			<div id ="menuimg">
+				<img src='Menu.png'>
+			</div>
+			<div id = "navbar" class ="jumbotron"> 
+				
 				<ul>
-					<li><a href="../index.html">Home</a> </li>
-					<li><a href="../projects/projects.html">Projects</a></li>
-					<li><a href="../profiles/profiles.html"> Profiles </a></li>
-					<li><a href="index.html"> About </a> </li>
+					<div class="col-md-3">
+						<li><a href="../index.html">Home</a> </li>
+					</div>
+					<div class="col-md-3">
+						<li><a href="../projects/projects.html">Projects</a></li>
+					</div>
+					<div class="col-md-3">
+						<li><a href="../profiles/profiles.html"> Profiles </a></li>
+					</div>	
+					<div class="col-md-3">
+						<li><a href="index.html"> About </a> </li>
+					</div>	
 				</ul>
 			</div>	
+		</div>
+	
 
-			<div class="header">
-				<h1> About </h1>
+		<div class ="container">
+			<div id="header" class="row">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-11">
+					<h1> About </h1>
+				</div>
 			</div>
-		</div>
-		<div class = "container colourblock1">
-			<div id="intro">
-				<h2>ArcJ</h2>
-				<p> This is the web page for the group ArcJ. We're on the <a href="http://foundersandcoders.org/">Founders and Coders</a> web dev course, and we'll be recording our progress, projects, thoughts and other things we find interesting here. You can find out more about us or our projects by clicking through the menu above.
-				</p>
-				<br>
-				<p>
-				Founders and Coders is a community of developers and a coding academy, running a 16 week intensive full-stack web-development course. Throughout the course ArcJ will be learning by building.
-				</p>
-			</div>
-		</div>
-		<div class ="divider" class="container">
-			<!--Add white block divider-->
-		</div>
-		<div class = "container colourblock2">
-			<div id="likes">
-				<h2> Useful things </h2>
-				<p> Below are some things we find useful, or resources or links that we've come across that we think are awesome:
-				</p>
-				<br>
-				<p><a href="http://foundersandcoders.org/">Founders and Coders</a>
-				</p>
-				<p><a href="http://www.codewars.com/dashboard">Codewars</a> is a great place to practice your skills in various languages
-				</p>
-				<p><a href="http://www.codecademy.com/learn">Codeacedemy</a> can help build your learning in new topics
-				</p>
-				<br>
+	
+
+			<div id = "main">
+				<div id = "intro" class="row">
+					<div class="col-md-1">
+					</div>
+					<div class="col-md-10">
+						<h2>ArcJ</h2>
+						<p> This is the web page for the group ArcJ. We're on the <a href="http://foundersandcoders.org/">Founders and Coders</a> web dev course, and we'll be recording our progress, projects, thoughts and other things we find interesting here. You can find out more about us or our projects by clicking through the menu above.
+						</p>
+						<br>
+						<p>
+						Founders and Coders is a community of developers and a coding academy, running a 16 week intensive full-stack web-development course. Throughout the course ArcJ will be learning by building.
+						</p>
+					</div>
+					<div class="col-md-1">
+					</div>
+				</div>
+
+				<div class ="divider">
+						<!--Add white block divider-->
+				</div>
+
+				<div id = "likes" class="row">
+					<div class="col-md-1">
+					</div>
+					<div class="col-md-10">
+						<h2> Useful things </h2>
+						<p> Below are some things we find useful, or resources or links that we've come across that we think are awesome:
+						</p>
+						<br>
+						<p><a href="http://foundersandcoders.org/">Founders and Coders</a>
+						</p>
+						<p><a href="http://www.codewars.com/dashboard">Codewars</a> is a great place to practice your skills in various languages
+						</p>
+						<p><a href="http://www.codecademy.com/learn">Codeacedemy</a> can help build your learning in new topics
+						</p>
+						<br>
+					</div>
+					<div class ="col-md-1">
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="about.js"></script>
 </html>
