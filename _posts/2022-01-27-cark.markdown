@@ -1,0 +1,7 @@
+---
+dummy: 7
+layout: posts
+title: Mahatma dons his Hat
+summary: Filler episode - flashback to Mahatma's youth before he started to wear his trademark trucker cap
+---
+project8

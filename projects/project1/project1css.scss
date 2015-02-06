@@ -1,0 +1,401 @@
+---
+---
+
+// fonts and guardian colors //
+
+body {
+	font-family: "Guardian Text Egyptian Web",Georgia,serif;
+<<<<<<< HEAD
+	color: #ffffff;
+=======
+>>>>>>> master
+}
+
+// Tab Display //
+.Tab {
+	position: relative;
+	left: 0;
+	top: 0;
+<<<<<<< HEAD
+	padding-left: 5px;
+=======
+>>>>>>> master
+	display: none;
+}
+
+.Tab > li {
+<<<<<<< HEAD
+	border-bottom: 1px solid #4bc6df;
+	height: 41px;
+	background-color: rgba(51,51,51,0.05)
+}
+
+.ConfigHolder {
+	background-color: rgba(51,51,51,0.05)
+=======
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+>>>>>>> master
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+	background: inherit;
+<<<<<<< HEAD
+	color: #ffffff;
+	border: none;
+	text-decoration: underline;
+=======
+	color: white;
+>>>>>>> master
+}
+
+.active {
+	display: block;
+}
+
+.presentation.option > a {
+	padding: 5px 15px;
+}
+
+#icon {
+	width: 35px;
+	height: 35px;
+}
+
+ul.nav.nav-tabs {
+	background-color: #00456e;
+}
+
+.presentation > a {
+<<<<<<< HEAD
+	color: #ffffff;
+	font-size: 16px;
+}
+
+ul.nav > li.presentation > a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+	background-color: inherit;
+	border-bottom-style: none;
+=======
+	color: white;
+}
+
+ul.nav > li.presentation > a:hover {
+	color: white;
+	text-decoration: underline;
+	background-color: inherit;
+	border-bottom-style: solid;
+>>>>>>> master
+	border-color: transparent;
+	border: 0px 0px 1px 0px;
+}
+
+ul.nav > li.presentation > a:hover:active {
+<<<<<<< HEAD
+	border-color: #ffffff;
+=======
+	border-color: white;
+>>>>>>> master
+	border: 1px 1px 2px 1px;
+}
+
+#myButtonHome {
+	font-weight: bold;
+}
+
+.Tab > li > a {
+<<<<<<< HEAD
+	color: #333;
+}
+
+.Tab > li > a:hover {
+	color: #333;
+=======
+	color: black;
+}
+
+.Tab > li > a:hover {
+	color: black;
+>>>>>>> master
+}
+
+#myButtonHome {
+	font-size: 1.2em;
+}
+
+<<<<<<< HEAD
+=======
+#Tab5 {
+	padding-left: 0;
+}
+
+>>>>>>> master
+#storyNum {
+	width: 314px;
+}
+
+.SectionPicker {
+<<<<<<< HEAD
+	width: 300px;
+	overflow: hidden;
+}
+
+p {
+	color: black;
+}
+=======
+	width: 351px;
+}
+
+>>>>>>> master
+.form-inline {
+	margin-top:4px;
+}
+
+a.active {
+	text-decoration: underline;
+}
+
+.presentation {
+	height: 30px;
+	float: left;
+}
+.presentation.options {
+	text-align: right;
+	width: auto;
+}
+
+h2 {
+<<<<<<< HEAD
+	font-size: 90%;
+	margin: 0;
+	font-weight: bold;
+	display: inline;
+=======
+	font-size:14px;
+	margin: 0;
+	font-weight: bold;
+>>>>>>> master
+}
+
+#guardian {
+	color: #4bc6df;
+}
+
+.btn-group-justified {
+<<<<<<< HEAD
+	width: 73%;
+=======
+	width: 70%;
+>>>>>>> master
+	padding-top: 2%;
+}
+
+.btn-group-justified > .presentation {
+<<<<<<< HEAD
+	width: 27%;
+=======
+	width: auto;
+>>>>>>> master
+	text-align: center;
+}
+
+.navbar-nav>li>a {
+	padding: 0;
+<<<<<<< HEAD
+	border: none;
+}
+.nav-tabs>li.presentation>a {
+	border: none;
+	font-size: 22px;
+=======
+>>>>>>> master
+}
+
+#myButtonHome {
+	height: auto;
+<<<<<<< HEAD
+	margin: 5px 0px 0px 5px;
+=======
+	margin: 5px 5px 5px;
+>>>>>>> master
+}
+
+.navbar-right {
+	width: 10%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+}
+
+.nav-tabs {
+	font-weight: bold;
+}
+
+.Defaults {
+	float: right;
+}
+.options {
+	width: 100%;
+}
+
+#link5,
+#link6 {
+	height: 100%;
+	width: 100%;
+}
+
+#id5,
+#id6 {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	text-align: right;
+	width: 41px;
+	float: right;
+	margin-right: 5px;
+
+}
+
+.col-md-5 {
+	padding: 0;
+}
+
+#id0 {
+	padding: 0;
+	margin-top: 5%;
+}
+
+#myButtonConfig {
+	float: right;
+	margin: 3px;
+}
+
+#myButtonOther {
+	float: right;
+	clear: right;
+}
+
+#TopTab0 {
+	padding: 0;
+}
+
+// hidden tabs //
+
+.presentation {
+	display: none;
+}
+
+<<<<<<< HEAD
+.trailer {
+	display: none;
+}
+
+=======
+>>>>>>> master
+.visible {
+	display: initial;
+}
+
+/*
+a {
+	color: black;
+};
+
+ul.nav.nav-tabs {
+	background-color: #00456e;
+}
+.nav-tabs > li {
+	margin-bottom: 0;
+}
+
+.nav-tabs > li > a {
+	border-radius: 0;
+	color: white;
+	border: none;
+}
+.nav-tabs > .presentation.active > a:hover {
+	text-decoration: underline;
+	background-color: #00456e;
+	color: white;
+	border: none;
+};
+
+.nav-tabs > .presentation > a:hover {
+	text-decoration: underline;
+	background-color: #00456e;
+	color: white;
+	border: none;
+
+};
+
+.nav-tabs > .presentation.active > a {
+	background-color: #00456e;
+	color: white;
+	border: none;
+};
+
+.nav-tabs > .presentation#myButtonConfig > a {
+	background-color: #333;
+	color: white;
+}
+
+.nav-tabs > .presentation#myButtonConfig.active > a {
+	background-color: #333;
+	color: white;
+}
+
+.nav-tabs > .presentation#myButtonConfig > a:hover {
+	text-decoration: underline;
+}
+
+// main structure //
+
+
+.Tab > li:before {
+
+}
+
+.mainwrapper {
+	position: absolute;
+}
+
+
+
+// list styling //
+
+//// ol {
+	counter-reset: item;
+	margin-left: 0.1em;
+	list-style-position: inside; 
+	padding-left: 0;
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+
+ol li {
+	text-align: left;
+	margin-left: 13px;
+	margin-right: 13px;
+	padding-right: 10px;
+}
+
+ol li:before {
+    content: counter(item, lower-roman) "";
+    counter-increment: item;
+} ////
+
+
+
+
+
+// list formatting //
+
+
+.Tab > li {
+	height: 3em;
+} */

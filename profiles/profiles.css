@@ -49,6 +49,7 @@ h2 {
     font-family: Droid Serif;
     padding-bottom: 10px;
     color: #525050;
+
 }
 
 p {
@@ -60,6 +61,7 @@ p {
 
 
 }
+
 
 #headerimg {
     background-image: url('main-image.jpeg');
@@ -76,11 +78,17 @@ p {
     color: #6d6d6d;
     font-size: 6rem;
     font-family: 'Cabin', sans-serif;
+=======
+
+h1 {
+    font-size: 75px;
+    font-family: 'Droid Serif', sans-serif;
+>>>>>>> master
     margin: auto;
+    color: #3cb3ad;
     text-align: center;
     padding: 40px;
     margin-top: 60px;
-    
 }
 
 /*
@@ -139,8 +147,8 @@ p {
 }
 
 .profile-pic {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     line-height: 200px;
     border-radius: 100%;
     margin: 0 auto;
@@ -149,10 +157,10 @@ p {
 }
 
 .social-media {
-    max-width: 30px;
-    width: 100%;
+    width: 30px;
     max-height: 30px;
-    margin: auto;
+    display: inline-block;
+    margin:auto;
 /*    line-height: 30px;*/
 }
 
@@ -166,4 +174,7 @@ p {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master

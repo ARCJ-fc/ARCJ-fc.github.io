@@ -6,7 +6,14 @@
 	padding-bottom: 50px;
 	padding-top: 20px;
 	background-color: rgba(0,0,0,.5);
+<<<<<<< HEAD
+=======
 
+}
+>>>>>>> master
+
+#navbar ul {
+	margin-left: 70px;
 }
 
 #navbar ul {
@@ -31,6 +38,7 @@
 
 }
 
+<<<<<<< HEAD
 /* Things to look at to google 
 	CSS transforms (mostly these)
 	CSS transitions (maybe some of these)
@@ -48,6 +56,12 @@
 	margin-top: -100px;
 	margin-left: 10px;
 	z-index: 1;
+=======
+#navbar img {
+	position: absolute;
+	margin-top: -12px;
+	margin-left: 10px;
+>>>>>>> master
 }
 
 #header {

@@ -1,0 +1,32 @@
+$leftboxhorizposn: margin: right
+
+$rightboxhorizposn: margin: left
+
+$middleboxhorizposn: margin: auto
+
+.projects {
+	margin: auto;
+	left: 0;
+	right: 0;
+	
+	h1 {
+	top: 0em;
+	bottom: 8em;
+	}
+
+	ol {
+	top: 0em;
+	bottom: 0em;
+	border: 2px solid black;
+	border-radius: 5px;
+	}
+
+	div {
+	top: 0em;
+	bottom: -11em;
+	border: 2px solid black;
+	border-radius: 5px;
+	}
+
+
+}

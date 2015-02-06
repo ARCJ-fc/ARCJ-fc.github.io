@@ -1,32 +1,138 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="projects.css">
-  <title>JS Bin</title>
-</head>
-  
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/projects.css" rel="stylesheet">
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  </head>
+
 <body>
-<div class="basic">  
+
+<div class="col-md-3">
+  <div>
+    <a href="https://twitter.com/search?q=%23gitoffmylawn" id="smalltop"><p>#gitoffmylawn</p></a>
+  </div>
 </div>
-<div class="basic">
-  <div class="header">
-    <h1>Projects</h1>
+
+<div class="col-md-6">
+  <div class="projects">
+	 <div class="centred">
+      <h1>projects</h1>
+      <div class="projectslist" id="cornershop">
+        <ol>
+        
+          <a href="/2014/02/27/mahatma.html" id="linethru">
+        		<li id="0"></li>
+          </a>
+        
+          <a href="/2015/01/27/welcome-to-jekyll.html" id="linethru">
+        		<li id="1"></li>
+          </a>
+        
+          <a href="/2017/01/27/welcome-to-sekyll.html" id="linethru">
+        		<li id="2"></li>
+          </a>
+        
+          <a href="/2018/01/27/frat.html" id="linethru">
+        		<li id="3"></li>
+          </a>
+        
+          <a href="/2019/01/27/sark.html" id="linethru">
+        		<li id="4"></li>
+          </a>
+        
+          <a href="/2020/01/27/wark.html" id="linethru">
+        		<li id="5"></li>
+          </a>
+        
+          <a href="/2021/01/27/yark.html" id="linethru">
+        		<li id="6"></li>
+          </a>
+        
+          <a href="/2022/01/27/cark.html" id="linethru">
+        		<li id="7"></li>
+          </a>
+        
+          <a href="/2023/02/27/mahatma.html" id="linethru">
+        		<li id="8"></li>
+          </a>
+        
+          <a href="/2024/02/27/mahatma.html" id="linethru">
+        		<li id="9"></li>
+          </a>
+        
+      	</ol>
+		  </div>
+    	<div class="projectspreview">
+        
+        <div class="previews" id="0">
+          <h2>Mahatma Goes Forth</h2>
+            <p>Mahatma goes for a peaceful night out on the town</p>
+        </div>
+        
+        <div class="previews" id="1">
+          <h2>Mahatma in the Country</h2>
+            <p>Mahatma goes for a crazy trip to the countryside</p>
+        </div>
+        
+        <div class="previews" id="2">
+          <h2>Mahatma in trouble!?</h2>
+            <p>Mahatma finds himself confronted by two ruffians</p>
+        </div>
+        
+        <div class="previews" id="3">
+          <h2>Mahatma on the Run</h2>
+            <p>Mahatma starts to run in the other direction</p>
+        </div>
+        
+        <div class="previews" id="4">
+          <h2>Mahatma's Wise Plan</h2>
+            <p>Mahatma shows the ruffians what-for!</p>
+        </div>
+        
+        <div class="previews" id="5">
+          <h2>Mahatma gets thanked!?</h2>
+            <p>The ruffians thank Mahatma for tripping them over with a banana skin</p>
+        </div>
+        
+        <div class="previews" id="6">
+          <h2>The Plot Thickens!</h2>
+            <p>The ruffians tell Mahatma that they were being mind-controlled by Dr Zorg, Mahatma's old drinking buddy and the mad-scientist villain of this arc!</p>
+        </div>
+        
+        <div class="previews" id="7">
+          <h2>Mahatma dons his Hat</h2>
+            <p>Filler episode - flashback to Mahatma's youth before he started to wear his trademark trucker cap</p>
+        </div>
+        
+        <div class="previews" id="8">
+          <h2>Mahatma and the Cyclops</h2>
+            <p>On his way to confront Dr Zorg, Mahatma is approached by a cyclops who presents him with a riddle</p>
+        </div>
+        
+        <div class="previews" id="9">
+          <h2>Mahatma the Great</h2>
+            <p>Mahatma has heard the riddle before, and so bypasses weeks of episode content by answering it without hesitation.</p>
+        </div>
+          
+      </div>
+  	</div>
   </div>
-  <div class="projectlist">
-    <ol class='roman'>
-      {% for post in site.posts %}
-      <a class="post-link" href="{{ post.url }}">
-        <li></li>
-      </a>
-      {% endfor %}
+</div>
+
+<div class="col-md-3">
+  <div class="topright">
+    <a href="../" id="smalltop"><p>i regret coming here</p></a>
   </div>
-  <div class="preview">
-    <p>placeholder text for preview pane</p>
-  </div>  
- </div>
-<div class="basic">
-  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">placeholder for rss logo</a></p>
-  </div>
-</body>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../projects/hover.js"></script>
+  </body>
 </html>
+

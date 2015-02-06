@@ -1,0 +1,11 @@
+---
+dummy: 0
+layout: posts
+title: Mahatma Goes Forth
+summary: Mahatma goes for a peaceful night out on the town
+AQuote: "Something amusing"
+CQuote: "Something funny"
+JQuote: "Something silly"
+RQuote: "Something cheeky"
+---
+project1

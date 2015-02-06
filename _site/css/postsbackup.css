@@ -1,0 +1,125 @@
+body {
+  font-family: Droid-serif;
+  background-color: #FFFAF0; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  color: black;
+  text-decoration: line-through; }
+
+.projects {
+  text-align: center;
+  margin-top: 12em;
+  border-color: #696969; }
+  .projects .centred {
+    display: inline-block;
+    vertical-align: middle; }
+    .projects .centred .projectcontent {
+      height: auto;
+      width: 30em;
+      border-image: url("http://4.bp.blogspot.com/-Rt8xKUikUBY/Tf-Wpm6fnjI/AAAAAAAAAD8/m4u6jgVJ3kM/s1600/Green_Green_Grass.jpg") 27 49 35 47 repeat;
+      border-radius: 5px;
+      border-width: 1em;
+      margin-bottom: 0.5em;
+      padding-top: 0.1em;
+      padding-left: 0.2em;
+      padding-right: 0.2em;
+      margin: auto; }
+
+.projects:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; }
+
+ol {
+  counter-reset: item;
+  width: 18em;
+  margin-left: 1em;
+  list-style-position: inside;
+  padding-left: 0;
+  list-style-type: none; }
+
+ol li {
+  float: left;
+  width: 1em;
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: 0.6em;
+  margin-right: 0.6em; }
+
+ol li:before {
+  content: counter(item,lower-roman) "";
+  counter-increment: item; }
+
+ol li:before:hover {
+  color: #ffebcd;
+  text-decoration: line-through; }
+
+ol a {
+  color: #ffebcd; }
+
+#linethru:hover {
+  text-decoration: line-through; }
+
+.previews {
+  display: none; }
+
+#cornershop {
+  background-image: url("http://4.bp.blogspot.com/-Rt8xKUikUBY/Tf-Wpm6fnjI/AAAAAAAAAD8/m4u6jgVJ3kM/s1600/Green_Green_Grass.jpg");
+  background-size: contain; }
+
+.smalltop {
+  display: inline-block; }
+
+.topright {
+  text-align: right; }
+
+#icon {
+  display: inline-block;
+  float: left;
+  height: auto;
+  width: auto;
+  max-width: 4em;
+  max-height: 4em; }
+
+h2 {
+  font-size: 1.5em; }
+
+.dummydiv1 {
+  height: auto;
+  width: 30em;
+  border-radius: 10px;
+  border: 2px solid;
+  margin-bottom: 0.5em;
+  margin: auto;
+  overflow: hidden; }
+
+.dummydiv2 {
+  height: auto;
+  width: 29em;
+  border-radius: 10px;
+  border: 2px solid;
+  margin: auto;
+  overflow: hidden; }
+
+.quotebox {
+  width: 80%;
+  height: auto;
+  margin: 2.5em auto; }
+
+.quotes {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  float: left; }
+
+.miniimage {
+  height: 1.5em;
+  width: 1.5em;
+  display: inline-block;
+  float: left; }

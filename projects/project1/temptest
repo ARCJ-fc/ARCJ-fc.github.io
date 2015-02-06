@@ -1,0 +1,131 @@
+<form class="form-horizontal">
+  <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon">stories to load</div>
+        <select class="form-control" id="storyNum">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option selected>10</option>
+        </select>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary"id="SaveStories">save</button>
+  </form>
+  <form class="form-inline">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon">section 1</div>
+        <select class="form-control SectionPicker" id="SectionValue1"> 
+    </select>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" id="SaveSection1">save</button>
+  </form>  
+  <form class="form-inline">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon">section 2</div>
+        <select class="form-control" id="SectionValue2"> 
+    </select>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" id="SaveSection2">save</button>
+  </form>
+  <form class="form-inline">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon">section 3</div>
+        <select class="form-control" id="SectionValue3"> 
+    </select>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" id="SaveSection3">save</button>
+  </form>
+  <form class="form-inline">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon">section 4</div>
+        <select class="form-control" id="SectionValue4"> 
+    </select>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" id="SaveSection4">save</button>
+  </form>
+  <button type="submit" id="Defaults" class="btn btn-default">defaults</button>
+</form>
+
+
+
+
+<div class="ConfigHolder">
+  <form class="form-inline">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon">stories to load</div>
+        <select class="form-control" id="storyNum">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option selected>10</option>
+        </select>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary"id="SaveStories">save</button>
+  </form>
+  <form class="form-inline">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon">section 1</div>
+        <select class="form-control SectionPicker" id="SectionValue1"> 
+    </select>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" id="SaveSection1">save</button>
+  </form>  
+  <form class="form-inline">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon">section 2</div>
+        <select class="form-control" id="SectionValue2"> 
+    </select>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" id="SaveSection2">save</button>
+  </form>
+  <form class="form-inline">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon">section 3</div>
+        <select class="form-control" id="SectionValue3"> 
+    </select>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" id="SaveSection3">save</button>
+  </form>
+  <form class="form-inline">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon">section 4</div>
+        <select class="form-control" id="SectionValue4"> 
+    </select>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" id="SaveSection4">save</button>
+  </form>
+  <button type="submit" id="Defaults" class="btn btn-default">defaults</button>
+</div>
+</ol>
+</div>
