@@ -1,0 +1,95 @@
+#navbar {
+    font-family: 'Droid Serif', serif;
+    position: absolute;
+    top: 0;
+}
+
+#navbar li {
+    list-style-type: none;
+    display: inline;
+    padding: 95px;
+    font-size: 20px;
+    margin: 0;
+    
+}
+
+#navbar a {
+    color: #4682b4;
+    text-decoration: none;
+}
+
+
+h1 {
+    color: #6d6d6d;
+    font-size: 6rem;
+    font-family: 'Droid Serif', sans-serif;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    margin-top: 60px;
+    
+}
+
+/*
+li { 
+    text-decoration: none;
+    display: inline;
+}
+*/
+
+
+/*
+.profile-div {
+    display: inline-block;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    line-height: 260px;
+    margin: auto;
+}
+*/
+.profile-div {
+    display: inline-block;
+    margin: auto;
+    width: 20%;
+    
+}
+    
+.profile-div h3 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.5rem;
+    color: #4c4c4c;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+
+}
+
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    line-height: 200px;
+    border-radius: 100%;
+    border: 2px solid #7f7f7f;
+    display:block;
+    margin:auto;
+}
+
+.social-media {
+    max-width: 30px;
+    width: 100%;
+    max-height: 30px;
+    margin: auto;
+/*    line-height: 30px;*/
+}
+
+
+
+
+
+
+
+
+
+
+

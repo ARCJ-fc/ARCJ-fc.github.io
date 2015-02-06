@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="project1css.css" rel="stylesheet">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  </head>
+
+  <body>
+    <div class="mainwrapper col-md-5">
+    <ul class="nav nav-tabs">
+      <li class="presentation" id="myButtonHome">
+        <a href="#">The Guardian</a>
+      </li>
+      <li class="presentation" id="myButtonFootball">
+        <a href="#">Football</a>
+      </li>
+      <li class="presentation" id="myButtonUKNews"><a href="#">UK News</a></li>
+      <li class="presentation" id="myButtonTravel"><a href="#">Travel</a></li>
+      <li class="presentation" id="myButtonConfig"><a href="#">Config</a></li>
+    </ul> 
+      <div>
+        <ol class="Tab" id="Tab1">
+          <li><a id="FootballTitle0"></a></li>
+          <li><a id="FootballTitle1"></a></li>
+          <li><a id="FootballTitle2"></a></li>
+          <li><a id="FootballTitle3"></a></li>
+          <li><a id="FootballTitle4"></a></li>
+          <li><a id="FootballTitle5"></a></li>
+          <li><a id="FootballTitle6"></a></li>
+          <li><a id="FootballTitle7"></a></li>
+          <li><a id="FootballTitle8"></a></li>
+          <li><a id="FootballTitle9"></a></li>
+        </ol>
+        <ol class="Tab" id="Tab2">
+          <li><a id="UKNewsTitle0"></a></li>
+          <li><a id="UKNewsTitle1"></a></li>
+          <li><a id="UKNewsTitle2"></a></li>
+          <li><a id="UKNewsTitle3"></a></li>
+          <li><a id="UKNewsTitle4"></a></li>
+          <li><a id="UKNewsTitle5"></a></li>
+          <li><a id="UKNewsTitle6"></a></li>
+          <li><a id="UKNewsTitle7"></a></li>
+          <li><a id="UKNewsTitle8"></a></li>
+          <li><a id="UKNewsTitle9"></a></li>
+        </ol>
+        <ol class="Tab" id="Tab3">
+          <li><a id="TravelTitle0"></a></li>
+          <li><a id="TravelTitle1"></a></li>
+          <li><a id="TravelTitle2"></a></li>
+          <li><a id="TravelTitle3"></a></li>
+          <li><a id="TravelTitle4"></a></li>
+          <li><a id="TravelTitle5"></a></li>
+          <li><a id="TravelTitle6"></a></li>
+          <li><a id="TravelTitle7"></a></li>
+          <li><a id="TravelTitle8"></a></li>
+          <li><a id="TravelTitle9"></a></li>
+        </ol>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="project1jquery.js"></script>
+    <script>
+      var httpRequest;
+      var section;
+      var apikey = "8jytc2dmqf5mrb8vpxaz9mjz";
+      var headlineNumber = 10;
+
+      document.getElementById("myButtonFootball").onclick = function() { 
+        section = "Football";
+        console.log("one");
+        makeRequest("http://content.guardianapis.com/search?api-key=" + apikey + "&order-by=newest&section=football");"" 
+      };
+
+      document.getElementById("myButtonUKNews").onclick = function() {
+        section = "UKNews"; 
+        console.log("one");
+        makeRequest("http://content.guardianapis.com/search?api-key=" + apikey + "&order-by=newest&section=uk-news"); 
+      };
+
+      document.getElementById("myButtonTravel").onclick = function() { 
+        section = "Travel";
+        console.log("one");
+        makeRequest("http://content.guardianapis.com/search?api-key=" + apikey + "&order-by=newest&section=travel"); 
+      };
+
+      function makeRequest(url) {
+        if (window.XMLHttpRequest) { 
+          httpRequest = new XMLHttpRequest();
+        } else if (window.ActiveXObject) { 
+          try {
+            httpRequest = new ActiveXObject("Msxml2.XMLHTTP");
+          } 
+          catch (e) {
+            try {
+              httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+            } 
+            catch (e) {}
+          }
+        }
+
+        if (!httpRequest) {
+          alert('Giving up :( Cannot create an XMLHTTP instance');
+          return false;
+        }
+
+        httpRequest.onreadystatechange = alertContents;
+        httpRequest.open('GET', url);
+        httpRequest.send();
+      }
+      function alertContents() {
+        if (httpRequest.readyState === 4) {
+          if (httpRequest.status === 200) {
+            var title = JSON.parse(httpRequest.response);
+            for (var i = 0; i < 10; i++) {
+              document.getElementById(section + "Title" + i).innerHTML = title.response.results[i].webTitle;
+              document.getElementById(section + "Title" + i).href = title.response.results[i].webUrl;
+              
+            }
+          } else {
+            alert('There was a problem with the request.');
+          }
+        }
+      } 
+    </script>
+  </body>
+</html>

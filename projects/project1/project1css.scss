@@ -5,7 +5,10 @@
 
 body {
 	font-family: "Guardian Text Egyptian Web",Georgia,serif;
+<<<<<<< HEAD
 	color: #ffffff;
+=======
+>>>>>>> master
 }
 
 // Tab Display //
@@ -13,11 +16,15 @@ body {
 	position: relative;
 	left: 0;
 	top: 0;
+<<<<<<< HEAD
 	padding-left: 5px;
+=======
+>>>>>>> master
 	display: none;
 }
 
 .Tab > li {
+<<<<<<< HEAD
 	border-bottom: 1px solid #4bc6df;
 	height: 41px;
 	background-color: rgba(51,51,51,0.05)
@@ -25,15 +32,23 @@ body {
 
 .ConfigHolder {
 	background-color: rgba(51,51,51,0.05)
+=======
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+>>>>>>> master
 }
 
 .nav-tabs>li.active>a, 
 .nav-tabs>li.active>a:focus, 
 .nav-tabs>li.active>a:hover {
 	background: inherit;
+<<<<<<< HEAD
 	color: #ffffff;
 	border: none;
 	text-decoration: underline;
+=======
+	color: white;
+>>>>>>> master
 }
 
 .active {
@@ -54,6 +69,7 @@ ul.nav.nav-tabs {
 }
 
 .presentation > a {
+<<<<<<< HEAD
 	color: #ffffff;
 	font-size: 16px;
 }
@@ -63,12 +79,26 @@ ul.nav > li.presentation > a:hover {
 	text-decoration: underline;
 	background-color: inherit;
 	border-bottom-style: none;
+=======
+	color: white;
+}
+
+ul.nav > li.presentation > a:hover {
+	color: white;
+	text-decoration: underline;
+	background-color: inherit;
+	border-bottom-style: solid;
+>>>>>>> master
 	border-color: transparent;
 	border: 0px 0px 1px 0px;
 }
 
 ul.nav > li.presentation > a:hover:active {
+<<<<<<< HEAD
 	border-color: #ffffff;
+=======
+	border-color: white;
+>>>>>>> master
 	border: 1px 1px 2px 1px;
 }
 
@@ -77,22 +107,38 @@ ul.nav > li.presentation > a:hover:active {
 }
 
 .Tab > li > a {
+<<<<<<< HEAD
 	color: #333;
 }
 
 .Tab > li > a:hover {
 	color: #333;
+=======
+	color: black;
+}
+
+.Tab > li > a:hover {
+	color: black;
+>>>>>>> master
 }
 
 #myButtonHome {
 	font-size: 1.2em;
 }
 
+<<<<<<< HEAD
+=======
+#Tab5 {
+	padding-left: 0;
+}
+
+>>>>>>> master
 #storyNum {
 	width: 314px;
 }
 
 .SectionPicker {
+<<<<<<< HEAD
 	width: 300px;
 	overflow: hidden;
 }
@@ -100,6 +146,11 @@ ul.nav > li.presentation > a:hover:active {
 p {
 	color: black;
 }
+=======
+	width: 351px;
+}
+
+>>>>>>> master
 .form-inline {
 	margin-top:4px;
 }
@@ -118,10 +169,16 @@ a.active {
 }
 
 h2 {
+<<<<<<< HEAD
 	font-size: 90%;
 	margin: 0;
 	font-weight: bold;
 	display: inline;
+=======
+	font-size:14px;
+	margin: 0;
+	font-weight: bold;
+>>>>>>> master
 }
 
 #guardian {
@@ -129,27 +186,42 @@ h2 {
 }
 
 .btn-group-justified {
+<<<<<<< HEAD
 	width: 73%;
+=======
+	width: 70%;
+>>>>>>> master
 	padding-top: 2%;
 }
 
 .btn-group-justified > .presentation {
+<<<<<<< HEAD
 	width: 27%;
+=======
+	width: auto;
+>>>>>>> master
 	text-align: center;
 }
 
 .navbar-nav>li>a {
 	padding: 0;
+<<<<<<< HEAD
 	border: none;
 }
 .nav-tabs>li.presentation>a {
 	border: none;
 	font-size: 22px;
+=======
+>>>>>>> master
 }
 
 #myButtonHome {
 	height: auto;
+<<<<<<< HEAD
 	margin: 5px 0px 0px 5px;
+=======
+	margin: 5px 5px 5px;
+>>>>>>> master
 }
 
 .navbar-right {
@@ -218,10 +290,13 @@ h2 {
 	display: none;
 }
 
+<<<<<<< HEAD
 .trailer {
 	display: none;
 }
 
+=======
+>>>>>>> master
 .visible {
 	display: initial;
 }
