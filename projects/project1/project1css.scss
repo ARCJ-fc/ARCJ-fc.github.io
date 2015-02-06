@@ -5,6 +5,7 @@
 
 body {
 	font-family: "Guardian Text Egyptian Web",Georgia,serif;
+	color: #ffffff;
 }
 
 // Tab Display //
@@ -12,19 +13,27 @@ body {
 	position: relative;
 	left: 0;
 	top: 0;
+	padding-left: 5px;
 	display: none;
 }
 
 .Tab > li {
-	border-bottom: 1px solid #ddd;
-	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #4bc6df;
+	height: 41px;
+	background-color: rgba(51,51,51,0.05)
+}
+
+.ConfigHolder {
+	background-color: rgba(51,51,51,0.05)
 }
 
 .nav-tabs>li.active>a, 
 .nav-tabs>li.active>a:focus, 
 .nav-tabs>li.active>a:hover {
 	background: inherit;
-	color: white;
+	color: #ffffff;
+	border: none;
+	text-decoration: underline;
 }
 
 .active {
@@ -45,20 +54,21 @@ ul.nav.nav-tabs {
 }
 
 .presentation > a {
-	color: white;
+	color: #ffffff;
+	font-size: 16px;
 }
 
 ul.nav > li.presentation > a:hover {
-	color: white;
+	color: #ffffff;
 	text-decoration: underline;
 	background-color: inherit;
-	border-bottom-style: solid;
+	border-bottom-style: none;
 	border-color: transparent;
 	border: 0px 0px 1px 0px;
 }
 
 ul.nav > li.presentation > a:hover:active {
-	border-color: white;
+	border-color: #ffffff;
 	border: 1px 1px 2px 1px;
 }
 
@@ -67,19 +77,15 @@ ul.nav > li.presentation > a:hover:active {
 }
 
 .Tab > li > a {
-	color: black;
+	color: #333;
 }
 
 .Tab > li > a:hover {
-	color: black;
+	color: #333;
 }
 
 #myButtonHome {
 	font-size: 1.2em;
-}
-
-#Tab5 {
-	padding-left: 0;
 }
 
 #storyNum {
@@ -87,9 +93,13 @@ ul.nav > li.presentation > a:hover:active {
 }
 
 .SectionPicker {
-	width: 351px;
+	width: 300px;
+	overflow: hidden;
 }
 
+p {
+	color: black;
+}
 .form-inline {
 	margin-top:4px;
 }
@@ -108,9 +118,10 @@ a.active {
 }
 
 h2 {
-	font-size:14px;
+	font-size: 90%;
 	margin: 0;
 	font-weight: bold;
+	display: inline;
 }
 
 #guardian {
@@ -118,22 +129,27 @@ h2 {
 }
 
 .btn-group-justified {
-	width: 70%;
+	width: 73%;
 	padding-top: 2%;
 }
 
 .btn-group-justified > .presentation {
-	width: auto;
+	width: 27%;
 	text-align: center;
 }
 
 .navbar-nav>li>a {
 	padding: 0;
+	border: none;
+}
+.nav-tabs>li.presentation>a {
+	border: none;
+	font-size: 22px;
 }
 
 #myButtonHome {
 	height: auto;
-	margin: 5px 5px 5px;
+	margin: 5px 0px 0px 5px;
 }
 
 .navbar-right {
@@ -199,6 +215,10 @@ h2 {
 // hidden tabs //
 
 .presentation {
+	display: none;
+}
+
+.trailer {
 	display: none;
 }
 
