@@ -1,45 +1,89 @@
 #navbar {
-	font-family: 'Roboto', sans-serif;
-	margin-top: -110px;
-	padding-bottom: 50px;
-	padding-top: 20px;
-	background-color: rgba(0,0,0,.5);
+    font-family: Roboto;
+    margin-top: -110px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    background-color: rgba(0,0,0,.5);
 
 }
 
 #navbar ul {
-	margin-left: 70px;
+    margin-left: 70px;
 }
 
 #navbar li {
-	list-style-type: none;
-	display: inline;
-	padding: 95px;
-	font-size: 30px;
-	margin: 0;
+    list-style-type: none;
+    display: inline;
+    padding: 95px;
+    font-size: 30px;
+    margin: 0;
 }
 
 #navbar a:hover {
-	text-decoration: none;
-	color: #3cb3ad;
+    text-decoration: none;
+    color: #3cb3ad;
 } 
 
 #navbar a {
-	color: white;
+    color: white;
 
 }
 
-#navbar img {
-	position: absolute;
-	margin-top: -12px;
-	margin-left: 10px;
+#menuimg img{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 10px;
+    z-index: 1;
 }
 
 
+#header h1 {
+    font-size: 75px;
+    font-family: Droid Serif;
+    color: #3cb3ad;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: Droid Serif;
+    padding-bottom: 10px;
+    color: #525050;
+
+}
+
+p {
+    font-family: Roboto;
+}
+
+.jumbotron {
+    position: relative;
+
+
+}
+
+
+#headerimg {
+    background-image: url('main-image.jpeg');
+    position: relative;
+    background-size: cover;
+    min-height: 400px;
+
+}
+
+
+
+
+/*h1 {
+    color: #6d6d6d;
+    font-size: 6rem;
+    font-family: 'Cabin', sans-serif;
+=======
 
 h1 {
     font-size: 75px;
     font-family: 'Droid Serif', sans-serif;
+>>>>>>> master
     margin: auto;
     color: #3cb3ad;
     text-align: center;
@@ -69,17 +113,37 @@ li {
     display: inline-block;
     margin: auto;
     width: 20%;
+    text-align: center;
+    margin-bottom: 20px;
     
 }
     
 .profile-div h3 {
-    font-family: 'Cabin', sans-serif;
-    font-size: 2.5rem;
+    font-family: 'Roboto';
+    font-size: 18px;
     color: #4c4c4c;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
+    margin-bottom: 15px;
 
+}
+
+.profile-wrapper {
+    width: 200px;
+}
+
+.profile-div hr {
+    border-top: 3px solid #3cb3ad;
+    margin-top: 40px;
+}
+
+p {
+    width: 100%;
+}
+
+.profile-text.col-md-4 {
+    width:65%;
+    text-align: left;
+    margin-top: 100px;
+    font-family: Roboto;
 }
 
 .profile-pic {
@@ -87,9 +151,9 @@ li {
     max-height: 200px;
     line-height: 200px;
     border-radius: 100%;
-    border: 2px solid #7f7f7f;
-    display:block;
-    margin:auto;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .social-media {
@@ -110,3 +174,7 @@ li {
 
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
