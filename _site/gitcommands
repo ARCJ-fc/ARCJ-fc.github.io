@@ -1,0 +1,15 @@
+Updating files into GitHub:
+
+git checkout -b <branchname> //create a new local branch to work in. 
+
+git add // Move provisional changes to index to be committed
+
+git commit // Save changes to local repo, create snapshot of repo
+
+git push origin <branchname> //push changes to a new branch in the remote repo
+
+git checkout master //switch to local copy of master branch
+
+git pull origin master // pull all recent changes to local copy of repo
+
+git merge master // merge changes with local copy of master

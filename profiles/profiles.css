@@ -1,0 +1,112 @@
+#navbar {
+	font-family: 'Roboto', sans-serif;
+	margin-top: -110px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	background-color: rgba(0,0,0,.5);
+
+}
+
+#navbar ul {
+	margin-left: 70px;
+}
+
+#navbar li {
+	list-style-type: none;
+	display: inline;
+	padding: 95px;
+	font-size: 30px;
+	margin: 0;
+}
+
+#navbar a:hover {
+	text-decoration: none;
+	color: #3cb3ad;
+} 
+
+#navbar a {
+	color: white;
+
+}
+
+#navbar img {
+	position: absolute;
+	margin-top: -12px;
+	margin-left: 10px;
+}
+
+
+
+h1 {
+    font-size: 75px;
+    font-family: 'Droid Serif', sans-serif;
+    margin: auto;
+    color: #3cb3ad;
+    text-align: center;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+/*
+li { 
+    text-decoration: none;
+    display: inline;
+}
+*/
+
+
+/*
+.profile-div {
+    display: inline-block;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    line-height: 260px;
+    margin: auto;
+}
+*/
+.profile-div {
+    display: inline-block;
+    margin: auto;
+    width: 20%;
+    
+}
+    
+.profile-div h3 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.5rem;
+    color: #4c4c4c;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+
+}
+
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    line-height: 200px;
+    border-radius: 100%;
+    border: 2px solid #7f7f7f;
+    display:block;
+    margin:auto;
+}
+
+.social-media {
+    width: 30px;
+    max-height: 30px;
+    display: inline-block;
+    margin:auto;
+/*    line-height: 30px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
